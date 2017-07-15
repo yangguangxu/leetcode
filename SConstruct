@@ -6,4 +6,4 @@ env = Environment(
     LIBPATH=['third_party/lib'],
     LIBS=['glog', 'gtest'])
 source = glob.glob('*.cc')
-env.Program('test', source)
+env.Program('leetcode', source)
